@@ -1,9 +1,9 @@
 {
-  "name": "typescript-template",
-  "displayName": "TypeScript Template",
+  "name": "background-start",
+  "displayName": "background-start",
   "version": "1.0.0",
-  "description": "A template kwinscript for typescript",
-  "author": "RubixDev",
+  "description": "BackgroundStart enables the application to launch initially without displaying a window upon startup.",
+  "author": "Ocyss",
   "license": "GPL-2.0-only",
   "main": "contents/code/main.js",
   "scripts": {

@@ -1,6 +1,8 @@
 [Desktop Entry]
-Name=TypeScript Template
-Comment=A template kwinscript for typescript
+Name=background-start
+Name[zh_CN]=后台启动
+Comment=BackgroundStart enables the application to launch initially without displaying a window upon startup.
+Comment[zh_CN]=后台启动插件允许应用程序在初始启动时不显示窗口。
 Icon=preferences-system-windows-script-test
 
 Type=Service
@@ -8,11 +10,12 @@ Type=Service
 X-Plasma-API=javascript
 X-Plasma-MainScript=code/main.js
 X-KWin-Border-Activate=false
-X-KDE-PluginInfo-Author=RubixDev
-X-KDE-PluginInfo-Email=rubixdev@mailfence.com
-X-KDE-PluginInfo-Name=typescript-template
+X-KDE-PluginInfo-Author=Ocyss
+X-KDE-PluginInfo-Email=kde@ocyss.icu
+X-KDE-PluginInfo-Name=background-start
 X-KDE-PluginInfo-Version=1.0.0
 
 X-KDE-PluginInfo-License=GPL
 X-KDE-ServiceTypes=KWin/Script
-X-KDE-PluginKeyword=typescript-template
+X-KDE-PluginKeyword=background-start
+X-KDE-ConfigModule=kwin/effects/configs/kcm_kwin4_genericscripted
